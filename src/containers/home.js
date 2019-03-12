@@ -21,7 +21,7 @@ export default class Home extends React.Component {
       <div className='container'>
         {
           images.map((e, i) => {
-            return <Image image={e.image} timestamp={e.timestamp} key={i} />
+            return <Image image={e.url} timestamp={e.timestamp} key={i} />
           })
         }
       </div>
